@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/loginbackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewLogin"
+            android:layout_width="145dp"
+            android:layout_height="248dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:id="@+id/loginLogin"
+            android:layout_width="824px"
+            android:layout_height="108px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/loginbutton" />
+
+        <Button
+            android:id="@+id/registerLogin"
+            android:layout_width="286dp"
+            android:layout_height="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="575dp"
+            android:background="@drawable/registerhere" />
+
+        <EditText
+            android:id="@+id/emailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="50dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/passwordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="50dp"
+            android:hint="Password"
+            android:inputType="textPassword">
+
+
+        </EditText>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

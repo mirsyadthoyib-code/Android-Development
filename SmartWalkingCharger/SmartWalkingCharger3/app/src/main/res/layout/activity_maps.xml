@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38c9e2"
+    tools:context="com.example.user.smartwalkingcharger.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="690sp"
+            android:src="@drawable/ic_background"
+            android:layout_marginTop="10sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Current Run"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingBottom="5sp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/backtohome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5sp"
+            android:hint="Back"
+            android:textColorHint="#000000"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="375sp"
+        android:paddingTop="37sp">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            tools:context="com.example.user.smartwalkingcharger.MapsActivity" />/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100sp"
+            android:text="KM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="93sp"
+            android:text="mAh"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/namaPoint"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datakm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/km"
+            android:paddingLeft="80sp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dataPoint"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datamah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/km"
+            android:paddingRight="103sp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dataPoint"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/calor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/datakm"
+            android:paddingLeft="79sp"
+            android:text="Calories"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/namaPoint"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/datakm"
+            android:paddingRight="95sp"
+            android:text="Step"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/namaPoint"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datacalor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/calor"
+            android:paddingLeft="80sp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dataPoint"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datastep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/calor"
+            android:paddingRight="103sp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dataPoint"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

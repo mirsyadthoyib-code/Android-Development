@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addfriendbackground"
+    android:orientation="vertical"
+    tools:context=".AddFriend">
+
+    <Button
+        android:id="@+id/homebtn_activity_add_friend"
+        android:layout_width="54dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/backbtn" />
+
+    <EditText
+        android:id="@+id/inputUsernameFriend_activity_add_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:fontFamily="@font/open_sans"
+        android:inputType="textPersonName"
+        android:hint="Masukkan Username"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/profilepict_activity_add_friend"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/layoutaddfriendpict" />
+
+    <TextView
+        android:id="@+id/fullname_activity_add_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Fullname"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/username_activity_add_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textColor="#020516"
+        android:textSize="30sp"
+        android:text="Username"
+        android:textAlignment="center"
+         />
+
+    <Button
+        android:id="@+id/addfriendbtn_activity_add_friend"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/addfriendbtnkecil" />
+
+
+</LinearLayout>

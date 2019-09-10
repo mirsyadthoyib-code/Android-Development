@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_tab1_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="#e5fff5">
+
+    <TextView
+        android:id="@+id/username_tab1_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center|left"
+        android:text="Username"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/status_tab1_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_tab1_list"
+        android:fontFamily="@font/open_sans"
+        android:text="status"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/date_tab1_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_tab1_list"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center|right"
+        android:text="date"
+        android:textSize="12sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+</LinearLayout>

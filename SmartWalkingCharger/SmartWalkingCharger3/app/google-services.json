@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "144280235464",
+    "firebase_url": "https://smartwalkingcharger3.firebaseio.com",
+    "project_id": "smartwalkingcharger3",
+    "storage_bucket": "smartwalkingcharger3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144280235464:android:92ec637270aee90e",
+        "android_client_info": {
+          "package_name": "com.example.user.smartwalkingcharger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144280235464-h05dg2p5b68iqac7njp2007u85tn44bv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.smartwalkingcharger",
+            "certificate_hash": "701f8f501cc44910b5f723913111f6ff2f06be5b"
+          }
+        },
+        {
+          "client_id": "144280235464-6q03eknk399lcp214mjasu5sgb5v9j3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdBmMwE-bpfBl-WX6mDLzdkG8Sxi7Koqs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144280235464-6q03eknk399lcp214mjasu5sgb5v9j3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

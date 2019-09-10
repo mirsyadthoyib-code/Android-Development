@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="namaPoint">20sp</dimen>
+    <dimen name="dataPoint">45sp</dimen>
+</resources>

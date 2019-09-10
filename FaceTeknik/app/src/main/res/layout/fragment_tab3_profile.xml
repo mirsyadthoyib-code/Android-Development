@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgorundprofil"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Tab3Profile">
+
+    <ImageView
+        android:id="@+id/profilepict_profile"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/layoutaddfriendpict" />
+
+    <TextView
+        android:id="@+id/username_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center"
+        android:text="Username"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/fullname_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center"
+        android:text="Fullname"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/email_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center"
+        android:text="E-mail@gmail.com"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/birthdate_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:gravity="center"
+        android:text="30 September 1029"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/bio_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="asdfsdafasdfasdf"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_tab3_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#156d6c"
+        android:text="LOGOUT"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <!--<Button-->
+    <!--android:id="@+id/homebtn_profile"-->
+    <!--android:layout_width="54dp"-->
+    <!--android:layout_height="33dp"-->
+    <!--android:gravity="right"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="@drawable/backbtn" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/edit_username_activity_profile"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginTop="350dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:fontFamily="@font/open_sans_semibold"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Username"-->
+    <!--android:textSize="30sp" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/edit_fullname_profile"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginTop="400dp"-->
+    <!--android:fontFamily="@font/open_sans_semibold"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Fullname Fullname"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:textSize="20sp" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/edit_email_profile"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginTop="450sp"-->
+    <!--android:fontFamily="@font/open_sans_semibold"-->
+    <!--android:gravity="center"-->
+    <!--android:text="E-mail"-->
+    <!--android:textSize="20sp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/edit_bio_activity_profile"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="111dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginTop="550dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:fontFamily="@font/open_sans_semibold"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Insert Bio"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:textSize="15sp"-->
+    <!--tools:layout_editor_absoluteX="0dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/savebtnprofile_profile"-->
+    <!--android:layout_width="159dp"-->
+    <!--android:layout_height="42dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="670dp"-->
+    <!--android:background="@drawable/saveprofilebtn" />-->
+
+</LinearLayout>
